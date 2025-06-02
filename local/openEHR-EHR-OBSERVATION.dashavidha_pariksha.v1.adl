@@ -1,0 +1,207 @@
+archetype (adl_version=1.4; uid=5daaac5d-cfdc-4400-825b-cd14c67aff5d)
+	openEHR-EHR-OBSERVATION.dashavidha_pariksha.v1
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-07-24">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"be15cf2b152b5d5e22e886591906e946">
+		["build_uid"] = <"3a8d3f37-569e-3023-997c-2897679486d3">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- Dashavidha pariksha exam
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Prakriti
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0005] occurrences matches {0..*} matches {    -- Vikriti
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Sara
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0007] occurrences matches {0..*} matches {    -- Samhanana
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									CLUSTER[at0015] occurrences matches {0..1} matches {    -- Pramana
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0016] occurrences matches {0..1} matches {    -- Height
+												value matches {
+													DV_QUANTITY matches {*}
+												}
+											}
+											ELEMENT[at0017] occurrences matches {0..1} matches {    -- Weight
+												value matches {
+													DV_QUANTITY matches {*}
+												}
+											}
+											ELEMENT[at0019] occurrences matches {0..1} matches {    -- BMI
+												value matches {
+													DV_QUANTITY matches {*}
+												}
+											}
+											ELEMENT[at0020] occurrences matches {0..1} matches {    -- Others
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..*} matches {    -- Satmya
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..*} matches {    -- Satva
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0011] occurrences matches {0..*} matches {    -- Ahara shakthi
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0012] occurrences matches {0..*} matches {    -- Vyayama shakthi
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0013] occurrences matches {0..1} matches {    -- Vaya
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..*} matches {    -- Comments
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Dashavidha pariksha exam">
+					description = <"dashavidha_pareekasha">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Prakriti">
+					description = <"Dosha body type & basic physical and psychological constitution">
+				>
+				["at0005"] = <
+					text = <"Vikriti">
+					description = <"Current & past diseases">
+				>
+				["at0006"] = <
+					text = <"Sara">
+					description = <"Dhatu Body Type. Immunity level & resistance to diseases">
+				>
+				["at0007"] = <
+					text = <"Samhanana">
+					description = <"Overall physical constitution & nature of the body, muscle tone">
+				>
+				["at0009"] = <
+					text = <"Satmya">
+					description = <"Compatibility of food & other things, habits">
+				>
+				["at0010"] = <
+					text = <"Satva">
+					description = <"Mental strength, tolerance & emotional balance">
+				>
+				["at0011"] = <
+					text = <"Ahara shakthi">
+					description = <"Mentabolism level & digestion capacity">
+				>
+				["at0012"] = <
+					text = <"Vyayama shakthi">
+					description = <"exercise capacity & tolerance">
+				>
+				["at0013"] = <
+					text = <"Vaya">
+					description = <"Persons age">
+				>
+				["at0014"] = <
+					text = <"Comments">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Pramana">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Height">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Weight">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"BMI">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Others">
+					description = <"">
+				>
+			>
+		>
+	>
