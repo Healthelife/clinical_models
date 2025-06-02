@@ -1,0 +1,66 @@
+archetype (adl_version=1.4; uid=5ef613d9-3c1b-455b-a303-346950498fda)
+	openEHR-EHR-ADMIN_ENTRY.composition_list.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2025-04-16">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"a64adcc87c75d4799a4ed920bc7746b8">
+		["build_uid"] = <"a2ec8340-9f9d-352e-81ed-5f3de786fd04">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- composition_list
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0002] occurrences matches {0..*} matches {    -- Compositions
+						value matches {
+							DV_EHR_URI matches {*}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"composition_list">
+					description = <"test">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Compositions">
+					description = <"">
+				>
+			>
+		>
+	>
