@@ -1,0 +1,113 @@
+archetype (adl_version=1.4; uid=7e10ec66-8d95-3774-9e60-1dea9218316c)
+	openEHR-EHR-SECTION.ashta_vidha_pariksha.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["name"] = <"">
+	>
+	lifecycle_state = <"0">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["MD5-CAM-1.0.1"] = <"259B088CAD23E70DA06006367FD63462">
+		["build_uid"] = <"715a15a8-889e-3958-9ce0-bd0788e4db9b">
+	>
+
+definition
+	SECTION[at0000] matches {    -- Ashta vidha pariksha
+		items cardinality matches {0..*; unordered} matches {
+			allow_archetype EVALUATION[at0001] occurrences matches {0..*} matches {    -- Synopsis
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0002] occurrences matches {0..*} matches {    -- Nadi
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0003] occurrences matches {0..*} matches {    -- Mootra
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0004] occurrences matches {0..*} matches {    -- Mala
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0005] occurrences matches {0..*} matches {    -- Jihva
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0006] occurrences matches {0..*} matches {    -- Shabda
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0007] occurrences matches {0..*} matches {    -- Sparsha
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0008] occurrences matches {0..*} matches {    -- Drik
+				include
+					archetype_id/value matches {/.*/}
+			}
+			allow_archetype OBSERVATION[at0009] occurrences matches {0..*} matches {    -- Akriti
+				include
+					archetype_id/value matches {/.*/}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Ashta vidha pariksha">
+					description = <"unknown">
+				>
+				["at0001"] = <
+					text = <"Synopsis">
+					description = <"*">
+				>
+				["at0002"] = <
+					text = <"Nadi">
+					description = <"*">
+				>
+				["at0003"] = <
+					text = <"Mootra">
+					description = <"*">
+				>
+				["at0004"] = <
+					text = <"Mala">
+					description = <"*">
+				>
+				["at0005"] = <
+					text = <"Jihva">
+					description = <"*">
+				>
+				["at0006"] = <
+					text = <"Shabda">
+					description = <"*">
+				>
+				["at0007"] = <
+					text = <"Sparsha">
+					description = <"*">
+				>
+				["at0008"] = <
+					text = <"Drik">
+					description = <"*">
+				>
+				["at0009"] = <
+					text = <"Akriti">
+					description = <"*">
+				>
+			>
+		>
+	>
