@@ -1,0 +1,201 @@
+archetype (adl_version=1.4; uid=9b26db14-494d-307a-b005-2cda8648d327)
+	openEHR-EHR-EVALUATION.ashta_sthana_pariksha.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2019-05-15">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"Initial">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"Record the eight fold ayurvada examination ">
+			keywords = <"Mootra","Mala","Jihva","Shabda","Sparsha","Drik","Akriti","Nadi">
+			copyright = <"@Healthelife Ventures LLP">
+		>
+	>
+	other_details = <
+		["current_contact"] = <"Dileep V S, Healthelife Ventures LLP<dileep@healthelife.in>">
+		["MD5-CAM-1.0.1"] = <"86546fd8924c5083d3104bb6c5f84a8d">
+		["build_uid"] = <"a1fbf903-38a2-3432-9db9-ea337bc100f7">
+	>
+
+definition
+	EVALUATION[at0000] matches {    -- Ashta sthana pariksha
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Tree
+				items cardinality matches {0..*; unordered} matches {
+					CLUSTER[at0002] occurrences matches {0..1} matches {    -- Nadi
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0003] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0004] occurrences matches {0..1} matches {    -- Mootra
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0011] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0005] occurrences matches {0..1} matches {    -- Mala
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0012] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0006] occurrences matches {0..1} matches {    -- Jihva
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0013] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0007] occurrences matches {0..1} matches {    -- Shabda
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0014] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0008] occurrences matches {0..1} matches {    -- Sparsha
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0015] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0009] occurrences matches {0..1} matches {    -- Drik
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0016] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					CLUSTER[at0010] occurrences matches {0..1} matches {    -- Akriti
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0017] occurrences matches {0..1} matches {    -- Description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+					ELEMENT[at0018] occurrences matches {0..1} matches {    -- Clinical notes
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Ashta sthana pariksha">
+					description = <"Ayurveda eight fold examination ">
+				>
+				["at0001"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Nadi">
+					description = <"Pulse & heart">
+				>
+				["at0003"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0004"] = <
+					text = <"Mootra">
+					description = <"Urine">
+				>
+				["at0005"] = <
+					text = <"Mala">
+					description = <"Feces">
+				>
+				["at0006"] = <
+					text = <"Jihva">
+					description = <"Toungue">
+				>
+				["at0007"] = <
+					text = <"Shabda">
+					description = <"Body sounds">
+				>
+				["at0008"] = <
+					text = <"Sparsha">
+					description = <"Touch">
+				>
+				["at0009"] = <
+					text = <"Drik">
+					description = <"Eyes">
+				>
+				["at0010"] = <
+					text = <"Akriti">
+					description = <"Overall look">
+				>
+				["at0011"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0012"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0013"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0014"] = <
+					text = <"Description">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0016"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0017"] = <
+					text = <"Description">
+					description = <"*">
+				>
+				["at0018"] = <
+					text = <"Clinical notes">
+					description = <"*">
+				>
+			>
+		>
+	>
