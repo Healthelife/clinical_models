@@ -1,0 +1,1565 @@
+{
+  "@type" : "TEMPLATE",
+  "uid" : "77fcc201-d06b-46e9-bcf7-3cc20701a412",
+  "description" : {
+    "@type" : "RESOURCE_DESCRIPTION",
+    "originalAuthor" : {
+      "name" : "Dileep V S",
+      "organisation" : "Healthelife Ventures LLP",
+      "email" : "dileep@healthelife.in",
+      "date" : "2024-07-30"
+    },
+    "otherContributors" : [ ],
+    "lifecycleState" : {
+      "codeString" : "unmanaged"
+    },
+    "ipAcknowledgements" : { },
+    "references" : { },
+    "conversionDetails" : { },
+    "otherDetails" : {
+      "licence" : "",
+      "custodian_organisation" : "",
+      "original_namespace" : "",
+      "original_publisher" : "",
+      "custodian_namespace" : "",
+      "sem_ver" : "1.0.0",
+      "build_uid" : "",
+      "MD5-CAM-1.0.1" : "fd4d17ccdfb9dfb60a5bdff4c55bdc71",
+      "PARENT:MD5-CAM-1.0.1" : "E51B66549F2C04336B514E1DAE9B93C8"
+    },
+    "details" : {
+      "de" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "de"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "fi" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fi"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ko" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ko"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "pt-br" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-br"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ar-sy" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ar-sy"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "en" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "en"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "it" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "it"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "fr" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fr"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "pt-pt" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-pt"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es-ar" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es-ar"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nb" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nb"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "purpose" : "Registrar les dades en l’àmbit del document d'una única interacció, contacte o esdeveniment d’atenció entre un pacient i un o més professionals d'atenció sanitària. Pot ser una interacció presencial o remota.",
+        "keywords" : [ "encontre", "contacte", "visita", "esdeveniment d’atenció" ],
+        "use" : "Utilitzar com a contenidor genèric en l’àmbit del document per a registrar dades d'una única interacció, contacte o esdeveniment d’atenció entre un pacient i un o més professionals d'atenció sanitària. El contacte pot ser presencial, per telèfon o un altre mitjà electrònic. La modalitat es pot recollir, si fos necessari, mitjançant l'atribut COMPOSITION/mode del model de referència.\r\n\r\nEl component principal de Sections/Content s'ha deixat deliberadament sense restriccions. Això permetrà que es completi amb qualsevol arquetip de tipus SECTION o ENTRY adequats per a la finalitat clínica dins d'una plantilla.\r\n\r\nTot i que COMPOSITION.Encounter no té restriccions per al contingut clínic, especificar aquest element proporciona un valor significatiu en permetre la consulta explícita de tots els Encounters dins d'un registre de pacients.\r\n\r\nEl component Context conté un SLOT opcional de «Extensió» que es pot utilitzar en el disseny de plantilles per a:\r\n- afegir informació contextual opcional, com ara informació de l'episodi; o\r\n- permetre l'harmonització o alineació amb altres formalismes model com FHIR o CIMI, com la representació explícita dels participants que solen ser gestionats pel Model de Referència openEHR en un arquetip openEHR.\r\n\r\nExemples típics són una visita clínica, una observació d'infermeria o una consulta de telemedicina.",
+        "misuse" : "No utilitzar per a registrar dades sobre un episodi complet d’atenció.\r\n\r\nNo utilitzar per a contenir informació persistent i resumida del pacient, com ara una llista de problemes o un resum de medicació.\r\n\r\nNo utilitzar per a registrar l'informe d'un servei de diagnòstic, com ara imatges o proves de laboratori.\r\n\r\nNo utilitzar per a representar el recurs FHIR del mateix nom - hi ha un abast i una intenció que no coincideixen.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      }
+    }
+  },
+  "parentArchetypeId" : "openEHR-EHR-COMPOSITION.encounter.v1",
+  "differential" : true,
+  "archetypeId" : {
+    "@type" : "ARCHETYPE_HRID",
+    "value" : "openEHR-EHR-COMPOSITION.t_encounter.v1"
+  },
+  "definition" : {
+    "@type" : "C_COMPLEX_OBJECT",
+    "rmTypeName" : "COMPOSITION",
+    "nodeId" : "at0000.1",
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "context",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "EVENT_CONTEXT",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "other_context",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "ITEM_TREE",
+            "nodeId" : "at0001",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "items",
+              "children" : [ {
+                "@type" : "C_ARCHETYPE_ROOT",
+                "rmTypeName" : "CLUSTER",
+                "occurrences" : "0..1",
+                "nodeId" : "at0002.1",
+                "attributes" : [ ],
+                "attributeTuples" : [ ],
+                "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-ehrn_metadata-001.v1",
+                "referenceType" : "archetypeOverlay"
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      } ]
+    }, {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "content",
+      "existence" : "0..1",
+      "cardinality" : {
+        "@type" : "CARDINALITY",
+        "interval" : "1..*",
+        "ordered" : false,
+        "unique" : false
+      },
+      "children" : [ {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "INSTRUCTION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.2",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-INSTRUCTION.ovl-service_request-001.v1",
+        "referenceType" : "archetypeOverlay"
+      } ]
+    } ],
+    "attributeTuples" : [ ]
+  },
+  "terminology" : {
+    "@type" : "ARCHETYPE_TERMINOLOGY",
+    "conceptCode" : "at0000",
+    "termDefinitions" : {
+      "ar-sy" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        }
+      },
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "Treatment plan",
+          "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
+        }
+      },
+      "es-ar" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interacción, contacto o evento de cuidados entre un sujeto de cuidados y uno o más proveedores de cuidados de la salud."
+        }
+      },
+      "ko" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        }
+      },
+      "pt-br" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interação, contato ou cuidado entre o sujeito do cuidado e profissional(is) de saúde."
+        }
+      },
+      "es" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interacción, contacto o evento de cuidado entre un paciente y un proveedor de salud."
+        }
+      },
+      "nl" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interactie, contact of zorggebeurtenis tussen een onderwerp van zorg en zorgverlener(s)."
+        }
+      },
+      "sv" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interaktion, kontakt eller vårdhändelse mellan patient och vårdgivare inom hälso- och sjukvården."
+        }
+      },
+      "de" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interaktion, Kontakt oder Versorgungsereignis, zwischen einem Versorgungsempfänger und einem Gesundheitsdienstleister."
+        }
+      },
+      "fi" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Hoitohenkilön ja terveydenhuollon tarjoajan välinen vuorovaikutus, kontakti- tai hoitotapahtuma."
+        }
+      },
+      "it" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interazione, contatto o evento di cura tra un soggetto di cura e il/i fornitore/i di assistenza sanitaria."
+        }
+      },
+      "fr" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interaction, contact ou événement de soins entre un sujet de soins et un ou des prestataires de soins."
+        }
+      },
+      "nb" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interaksjon, kontakt eller omsorgshendelse mellom et individ og helsepersonell."
+        }
+      },
+      "pt-pt" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "EHRN-AyushEHRV2-TreatmentPlan.v0",
+          "description" : "Interação, contato ou evento de cuidados entre um sujeito e um provedor de saúde."
+        }
+      },
+      "ca" : { }
+    },
+    "termBindings" : { },
+    "terminologyExtracts" : { },
+    "valueSets" : { }
+  },
+  "adlVersion" : "1.4",
+  "buildUid" : "ed2cc0eb-c508-3e66-a7bc-0e3f3e3f196f",
+  "rmName" : "openehr",
+  "rmRelease" : "1.1.0",
+  "generated" : true,
+  "templateId" : "EHRN-AyushEHRV2-TreatmentPlan.v1.0",
+  "otherMetaData" : { },
+  "templateOverlays" : [ {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "af2ffac9-6c7f-4a85-bafc-95dd78d40a9a",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "29a1e33d7638421ec411ca6b8ba32d62"
+      },
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "Capture ABDM HIType related metadata to help in sharing of data ",
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.ehrn_metadata.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-ehrn_metadata-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "CLUSTER",
+          "nodeId" : "at0014",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0001.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "defaultValue" : {
+                    "defining_code" : {
+                      "terminology_id" : {
+                        "value" : "SNOMED CT",
+                        "@type" : "TERMINOLOGY_ID"
+                      },
+                      "code_string" : "734163000",
+                      "@type" : "CODE_PHRASE"
+                    },
+                    "value" : "Care plan",
+                    "@type" : "DV_CODED_TEXT"
+                  },
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED CT",
+                        "code" : "734163000",
+                        "value" : "Care plan"
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "fb6de372-63f3-3b37-82e0-a6cccdcbbe71",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "2eb5058b-4ecc-473a-a6b2-afa4ef9d7911",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "552568349490A2FA815607DD29B53F55"
+      },
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Allgemeines Konzept, die von einer gesundheitsbezogenen Dienstleistung oder Tätigkeit durch einen Arzt, eine Organisation oder eine Agentur erbracht werden soll.",
+          "keywords" : [ "Anfrage", "Bestellung", "Dienst", "Bereitstellung", "Empfehlung", "Überweisung" ],
+          "use" : "Zur Erfassung einer Anforderung für eine gesundheitsbezogene Dienstleistung oder Aktivität, die von einem Kliniker, einer Abteilung oder einer Einrichtung erbracht werden soll.\r\n\r\nDieser generische Archetyp wurde als Grundstruktur entwickelt, die als Basis für eine Vielzahl von Anfragen verwendet werden kann:\r\n- eine Anfrage von einem Arzt, einer Organisation oder einer Einrichtung an einen anderen Arzt, eine Organisation oder eine Einrichtung für eine gesundheitsbezogene Dienstleistung. Zum Beispiel: eine Überweisung an einen Facharzt für eine Behandlung oder eine zweite klinische Meinung; eine Verlegung in eine Notaufnahme; eine vierstündige Überwachung der Vitalparameter; diagnostische Untersuchungen; und die Bereitstellung von häuslichen Dienstleistungen durch eine Gemeindeverwaltung; oder\r\n- ein Antrag auf einen Folgetermin bei demselben Arzt, derselben Organisation oder derselben Einrichtung. Zum Beispiel: ein ambulanter Termin zur Überprüfung in 6 Wochen. \r\n\r\nEr kann verwendet werden, um eine Anfrage für einen oder mehrere Dienste auf eine von zwei Arten darzustellen:\r\n- Wenn mehrere Dienste angefordert werden müssen und die im „Protokoll“ (z. B. „Empfänger“) aufgezeichneten Informationen gleich sind - verwenden Sie für jede Anforderung eine eigene „Activity“-Instanz innerhalb dieses Archetyps.\r\n- Wenn mehrere Dienste angefordert werden müssen und die im „Protokoll“ (z. B. „Empfänger“) aufgezeichneten Informationen unterschiedlich sind, verwenden Sie für jede Anforderung eine eigene Instanz dieses Archetyps.\r\n\r\nDas Datenelement \"Service due\" unterstützt gängige Anwendungsfälle zur Festlegung des einfachen Zeitplans für die Zustellung der Anfrage(n) bei einer einzigen Gelegenheit. Für Situationen mit komplizierteren zeitlichen Anforderungen oder einer Reihe von Diensten ist der Archetyp CLUSTER.service_direction innerhalb des SLOT \"Complex timing\" zu verwenden.\r\n\r\nBeispiele für die Umsetzung:\r\n- Nehmen wir an, ein Arzt überweist einen Patienten an einen Endokrinologen, um ihn bei der Behandlung von Diabetes zu beraten - der \"Dienstname\" lautet \"Überweisung\"; die \"klinische Indikation\" lautet \"Typ-1-Diabetes mellitus\"; der \"Grund für die Anfrage\" kann \"Schwierigkeiten bei der Kontrolle der Hyperglykämie am frühen Abend\" lauten; der \"klinische Kontext\" kann einen Bericht über die Dauer und die bisherige Behandlung des Diabetes, die derzeitige Behandlung sowie die jüngste Gewichtszunahme und Informationen über den kürzlichen Tod des Ehepartners enthalten; die derzeitige Behandlung; die \"Absicht\" kann \"Zweitmeinung\" oder \"Übergabe der Behandlung\" lauten.\r\n- Nehmen wir an, ein Arzt bestellt eine Diabetes-Schulung - Der \"Name der Dienstleistung\" lautet \"Diabetes-Schulung\"; die \"Klinische Indikation\" lautet \"Typ-1-Diabetes mellitus\"; der \"Grund für die Anforderung\" kann \"Neue Diagnose\" und \"Vorbeugung von Ketoazidose\" lauten; und der \"Klinische Kontext\" kann \"Neu diagnostizierter Diabetiker zur Erstschulung und Einweisung in die Insulinverabreichung\" sein. Wenn die Erbringung der vollständigen Dienstleistung mehr als eine Aktivität erfordert, wie z. B. \"vier Sitzungen in vierzehntägigen Abständen, beginnend eine Woche nach der Entlassung aus dem Krankenhaus\", verwenden Sie den Archetyp CLUSTER.service_direction und den zugehörigen Archetyp CLUSTER.timing_nondaily, der im SLOT \"Complex timing\" verschachtelt ist.\r\n- Nehmen wir an, ein Arzt bestellt bei der Stadtverwaltung eine Mahlzeit nach Hause - der \"Name der Dienstleistung\" könnte \"Essen auf Rädern\" sein; die \"Klinische Indikation\" könnte \"Emphysem\" sein; der \"Grund für die Anforderung\" könnte \"Unfähig, selbständig einzukaufen oder zu kochen\" sein. Der komplexe Zeitplan hierfür erfordert die Verwendung des Archetyps CLUSTER.service_direction und des zugehörigen Archetyps CLUSTER.timing_nondaily, der in den SLOT \"Complex timing\" eingebettet ist, um die Lieferanforderungen zu definieren, z. B. \"täglich für 6 Monate\".\r\n- Nehmen wir an, ein Arzt ordnet eine Ultraschalluntersuchung des linken Beins an, um eine tiefe Venenthrombose auszuschließen - der \"Servicename\" lautet \"Ultraschall linker Unterschenkel\"; die \"klinische Indikation\" kann \"geschwollener linker Knöchel\" sein; der \"Grund für die Anforderung\" kann \"Ausschluss einer tiefen Venenthrombose\" sein; der \"klinische Kontext\" kann \"allmählich zunehmendes Lochödem bis zur Mitte der Wade am linken Bein in den letzten drei Tagen\" sein.\r\n- Nehmen wir an, ein Arzt ordnet eine wiederkehrende Blutuntersuchung an, z. B. einen INR-Wert. Die komplexe Zeitplanung hierfür erfordert die Verwendung des Archetyps CLUSTER.service_direction und des zugehörigen Archetyps CLUSTER.timing_nondaily, der in den SLOT \"Komplexe Zeitplanung\" eingebettet ist, um die Häufigkeit und den Zeitpunkt für jede Sequenz in einer Reihe von Tests klar zu definieren, z. B. \"täglich für eine Woche, wöchentlich für 4 Wochen, monatlich für 6 Monate\".\r\n- Nehmen wir an, ein Kliniker ordnet einen Folgetermin in 6 Wochen an. Der \"Name des Dienstes\" ist \"Folgetermin\". Wenn der Arzt in der Benutzeroberfläche \"6 Wochen\" als vorgeschlagenen Zeitpunkt für den Termin eingibt, wird das klinische System das Datum in sechs Wochen im Datenelement \"Leistung fällig\" erfassen.\r\n\r\nIn vielen Situationen wird es möglich sein, die Schritte, die im Rahmen der Durchführung dieser Anforderung erfolgen, mit dem entsprechenden generischen ACTION.service zu erfassen. Es wird jedoch viele Fälle geben, in denen der erforderliche ACTION-Archetyp sehr spezifisch für den Zweck ist, da die Datenanforderungen für die Aufzeichnung der Erbringung vieler gesundheitsbezogener Leistungen ganz spezielle Datenelemente, Aufzeichnungsmuster oder Schritte des Pfads erfordern. Zum Beispiel: ACTION.screening oder ACTION.health_education.",
+          "misuse" : "Nicht zur Aufzeichnung von Details über die Aktivitäten, die dokumentieren, wie ein Auftrag oder eine Anfrage ausgeführt wurde - verwenden Sie zu diesem Zweck einen ACTION-Archetyp. Zum Beispiel den Archetyp ACTION.service oder einen zweckspezifischeren Archetyp aus der Klasse ACTION für diesen Zweck.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "*A generic framework for a request for a health-related service or activity to be delivered by a clinician, organisation or agency. (en)",
+          "keywords" : [ "remiss", "förfrågan", "beställning", "tjänst", "tillhandahålla", "patientremittering" ],
+          "use" : "*Use to record a request for a health-related service or activity to be delivered by a clinician, organisation or agency.\r\n\r\nThis generic archetype has been designed as a framework that can be used as the basis for a wide range of requests:\r\n- a request from one clinician, organisation or agency to another clinician, organisation or agency for a health-related service. For example: a referral to a specialist clinician for treatment or a second clinical opinion; transfer of care to an emergency department; four hourly vital signs monitoring; diagnostic investigations; and provision of home services from a municipal council; or\r\n- a request for a follow-up service to be scheduled for the same clinician, organisation or agency. For example: an outpatient appointment for review in 6 weeks. \r\n\r\nIt can be used to represent a request for one or more services, in one of two ways:\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is the same - use a separate 'Activity' instance within this archetype for each request.\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is different - use a separate instance of this archetype for each request.\r\n\r\nThe 'Service due' data element supports common use cases for stipulating the simple timing for delivery of the request/s on a single occasion. For situations with more complicated timing requirements or a series of services, use the CLUSTER.service_direction archetype within the 'Complex timing' SLOT.\r\n\r\nImplementation examples:\r\n- Consider a clinician referring a patient to an Endocrinologist for diabetes treatment advice - the 'Service name will be 'Referral'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'Difficulty controlling early evening hyperglycaemia; the 'Clinical context' may contain a narrative about the duration and previous management of their diabetes, current treatment, plus recent weight gain and information about the recent death of their spouse; current treatment; 'Intent' may be 'Second opinion' or 'Handover of care'.\r\n- Consider a clinician ordering diabetes education - The 'Service name' will be 'Diabetes education'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'New diagnosis' and 'Prevention of ketoacidosis'; and 'Clinical context' may be 'Newly diagnosed diabetic for initial education and instruction in insulin administration'. If delivery of the complete service requires more than one activity, such as 'four sessions at fortnightly intervals, commencing one week after discharge from hospital', use the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype, nested within the 'Complex timing' SLOT.\r\n- Consider a clinician ordering a meal home-delivery service from the municipal council - the 'Service name' may be 'Meals on wheels program'; the 'Clinical indication' may be 'Emphysema'; the 'Reason for request' may be 'Unable to shop or cook independently'. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to define the delivery requirements such as 'daily for 6 months'.\r\n- Consider a clinician ordering an ultrasound of the left leg to exclude a deep venous thrombosis - the 'Service name' will be 'Ultrasound left lower leg'; the 'Clinical indication' may be 'swollen left ankle'; the 'Reason for request' may be 'exclude DVT'; the 'Clinical context' may be 'gradually increasing pitting oedema to mid-calf in the left leg over the past 3 days'.\r\n- Consider a clinician ordering a recurring blood test, such as an INR. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to clearly define the frequency and timing for each sequence in a series of tests, such as 'daily for one week, weekly for 4 weeks, monthly for 6 months'.\r\n- Consider a clinician ordering a follow-up appointment in 6 weeks. 'Follow-up appointment' will be the 'Service name'. If they enter '6 weeks' as the proposed timing for the appointment in the User Interface, the clinical system will record the date six weeks from today in the 'Service due' data element.\r\n\r\nIn many situations, it will be possible to record the steps that occur as part of this request being carried out using the corresponding generic ACTION.service. However, there will be many occasions where the required ACTION archetype will be very specific for purpose, as the data requirements for recording provision of many health-related services will need quite unique data elements, recording patterns or pathway steps. For example: ACTION.screening or ACTION.health_education. (en)",
+          "misuse" : "*Not to be used to record details about the activities that document how an order or request has been carried out - use an ACTION archetype for this purpose. For example ACTION.service archetype or a more purpose-specific archetype from the ACTION class for this purpose. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "*A generic framework for a request for a health-related service or activity to be delivered by a clinician, organisation or agency. (en)",
+          "keywords" : [ "rekvisisjon", "bestilling", "foreskriving", "tjeneste", "tjenesteyter", "rekvirere", "bestille", "anmodning", "forespørre", "forespørsel", "anmode", "tilsyn" ],
+          "use" : "*Use to record a request for a health-related service or activity to be delivered by a clinician, organisation or agency.\r\n\r\nThis generic archetype has been designed as a framework that can be used as the basis for a wide range of requests:\r\n- a request from one clinician, organisation or agency to another clinician, organisation or agency for a health-related service. For example: a referral to a specialist clinician for treatment or a second clinical opinion; transfer of care to an emergency department; four hourly vital signs monitoring; diagnostic investigations; and provision of home services from a municipal council; or\r\n- a request for a follow-up service to be scheduled for the same clinician, organisation or agency. For example: an outpatient appointment for review in 6 weeks. \r\n\r\nIt can be used to represent a request for one or more services, in one of two ways:\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is the same - use a separate 'Activity' instance within this archetype for each request.\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is different - use a separate instance of this archetype for each request.\r\n\r\nThe 'Service due' data element supports common use cases for stipulating the simple timing for delivery of the request/s on a single occasion. For situations with more complicated timing requirements or a series of services, use the CLUSTER.service_direction archetype within the 'Complex timing' SLOT.\r\n\r\nImplementation examples:\r\n- Consider a clinician referring a patient to an Endocrinologist for diabetes treatment advice - the 'Service name will be 'Referral'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'Difficulty controlling early evening hyperglycaemia; the 'Clinical context' may contain a narrative about the duration and previous management of their diabetes, current treatment, plus recent weight gain and information about the recent death of their spouse; current treatment; 'Intent' may be 'Second opinion' or 'Handover of care'.\r\n- Consider a clinician ordering diabetes education - The 'Service name' will be 'Diabetes education'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'New diagnosis' and 'Prevention of ketoacidosis'; and 'Clinical context' may be 'Newly diagnosed diabetic for initial education and instruction in insulin administration'. If delivery of the complete service requires more than one activity, such as 'four sessions at fortnightly intervals, commencing one week after discharge from hospital', use the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype, nested within the 'Complex timing' SLOT.\r\n- Consider a clinician ordering a meal home-delivery service from the municipal council - the 'Service name' may be 'Meals on wheels program'; the 'Clinical indication' may be 'Emphysema'; the 'Reason for request' may be 'Unable to shop or cook independently'. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to define the delivery requirements such as 'daily for 6 months'.\r\n- Consider a clinician ordering an ultrasound of the left leg to exclude a deep venous thrombosis - the 'Service name' will be 'Ultrasound left lower leg'; the 'Clinical indication' may be 'swollen left ankle'; the 'Reason for request' may be 'exclude DVT'; the 'Clinical context' may be 'gradually increasing pitting oedema to mid-calf in the left leg over the past 3 days'.\r\n- Consider a clinician ordering a recurring blood test, such as an INR. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to clearly define the frequency and timing for each sequence in a series of tests, such as 'daily for one week, weekly for 4 weeks, monthly for 6 months'.\r\n- Consider a clinician ordering a follow-up appointment in 6 weeks. 'Follow-up appointment' will be the 'Service name'. If they enter '6 weeks' as the proposed timing for the appointment in the User Interface, the clinical system will record the date six weeks from today in the 'Service due' data element.\r\n\r\nIn many situations, it will be possible to record the steps that occur as part of this request being carried out using the corresponding generic ACTION.service. However, there will be many occasions where the required ACTION archetype will be very specific for purpose, as the data requirements for recording provision of many health-related services will need quite unique data elements, recording patterns or pathway steps. For example: ACTION.screening or ACTION.health_education. (en)",
+          "misuse" : "*Not to be used to record details about the activities that document how an order or request has been carried out - use an ACTION archetype for this purpose. For example ACTION.service archetype or a more purpose-specific archetype from the ACTION class for this purpose. (en)",
+          "copyright" : "© openEHR Foundation, Nasjonal IKT HF",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "*A generic framework for a request for a health-related service or activity to be delivered by a clinician, organisation or agency. (en)",
+          "keywords" : [ "solicitação", "requisição", "ordem", "pedido", "serviço", "referência", "encaminhamento" ],
+          "use" : "*Use to record a request for a health-related service or activity to be delivered by a clinician, organisation or agency.\r\n\r\nThis generic archetype has been designed as a framework that can be used as the basis for a wide range of requests:\r\n- a request from one clinician, organisation or agency to another clinician, organisation or agency for a health-related service. For example: a referral to a specialist clinician for treatment or a second clinical opinion; transfer of care to an emergency department; four hourly vital signs monitoring; diagnostic investigations; and provision of home services from a municipal council; or\r\n- a request for a follow-up service to be scheduled for the same clinician, organisation or agency. For example: an outpatient appointment for review in 6 weeks. \r\n\r\nIt can be used to represent a request for one or more services, in one of two ways:\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is the same - use a separate 'Activity' instance within this archetype for each request.\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is different - use a separate instance of this archetype for each request.\r\n\r\nThe 'Service due' data element supports common use cases for stipulating the simple timing for delivery of the request/s on a single occasion. For situations with more complicated timing requirements or a series of services, use the CLUSTER.service_direction archetype within the 'Complex timing' SLOT.\r\n\r\nImplementation examples:\r\n- Consider a clinician referring a patient to an Endocrinologist for diabetes treatment advice - the 'Service name will be 'Referral'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'Difficulty controlling early evening hyperglycaemia; the 'Clinical context' may contain a narrative about the duration and previous management of their diabetes, current treatment, plus recent weight gain and information about the recent death of their spouse; current treatment; 'Intent' may be 'Second opinion' or 'Handover of care'.\r\n- Consider a clinician ordering diabetes education - The 'Service name' will be 'Diabetes education'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'New diagnosis' and 'Prevention of ketoacidosis'; and 'Clinical context' may be 'Newly diagnosed diabetic for initial education and instruction in insulin administration'. If delivery of the complete service requires more than one activity, such as 'four sessions at fortnightly intervals, commencing one week after discharge from hospital', use the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype, nested within the 'Complex timing' SLOT.\r\n- Consider a clinician ordering a meal home-delivery service from the municipal council - the 'Service name' may be 'Meals on wheels program'; the 'Clinical indication' may be 'Emphysema'; the 'Reason for request' may be 'Unable to shop or cook independently'. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to define the delivery requirements such as 'daily for 6 months'.\r\n- Consider a clinician ordering an ultrasound of the left leg to exclude a deep venous thrombosis - the 'Service name' will be 'Ultrasound left lower leg'; the 'Clinical indication' may be 'swollen left ankle'; the 'Reason for request' may be 'exclude DVT'; the 'Clinical context' may be 'gradually increasing pitting oedema to mid-calf in the left leg over the past 3 days'.\r\n- Consider a clinician ordering a recurring blood test, such as an INR. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to clearly define the frequency and timing for each sequence in a series of tests, such as 'daily for one week, weekly for 4 weeks, monthly for 6 months'.\r\n- Consider a clinician ordering a follow-up appointment in 6 weeks. 'Follow-up appointment' will be the 'Service name'. If they enter '6 weeks' as the proposed timing for the appointment in the User Interface, the clinical system will record the date six weeks from today in the 'Service due' data element.\r\n\r\nIn many situations, it will be possible to record the steps that occur as part of this request being carried out using the corresponding generic ACTION.service. However, there will be many occasions where the required ACTION archetype will be very specific for purpose, as the data requirements for recording provision of many health-related services will need quite unique data elements, recording patterns or pathway steps. For example: ACTION.screening or ACTION.health_education. (en)",
+          "misuse" : "*Not to be used to record details about the activities that document how an order or request has been carried out - use an ACTION archetype for this purpose. For example ACTION.service archetype or a more purpose-specific archetype from the ACTION class for this purpose. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "A generic framework for a request for a health-related service or activity to be delivered by a clinician, organisation or agency.",
+          "keywords" : [ "request", "order", "service", "provide", "referral" ],
+          "use" : "Use to record a request for a health-related service or activity to be delivered by a clinician, organisation or agency.\r\n\r\nThis generic archetype has been designed as a framework that can be used as the basis for a wide range of requests:\r\n- a request from one clinician, organisation or agency to another clinician, organisation or agency for a health-related service. For example: a referral to a specialist clinician for treatment or a second clinical opinion; transfer of care to an emergency department; four hourly vital signs monitoring; diagnostic investigations; and provision of home services from a municipal council; or\r\n- a request for a follow-up service to be scheduled for the same clinician, organisation or agency. For example: an outpatient appointment for review in 6 weeks. \r\n\r\nIt can be used to represent a request for one or more services, in one of two ways:\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is the same - use a separate 'Activity' instance within this archetype for each request.\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is different - use a separate instance of this archetype for each request.\r\n\r\nThe 'Service due' data element supports common use cases for stipulating the simple timing for delivery of the request/s on a single occasion. For situations with more complicated timing requirements or a series of services, use the CLUSTER.service_direction archetype within the 'Complex timing' SLOT.\r\n\r\nImplementation examples:\r\n- Consider a clinician referring a patient to an Endocrinologist for diabetes treatment advice - the 'Service name will be 'Referral'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'Difficulty controlling early evening hyperglycaemia; the 'Clinical context' may contain a narrative about the duration and previous management of their diabetes, current treatment, plus recent weight gain and information about the recent death of their spouse; current treatment; 'Intent' may be 'Second opinion' or 'Handover of care'.\r\n- Consider a clinician ordering diabetes education - The 'Service name' will be 'Diabetes education'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'New diagnosis' and 'Prevention of ketoacidosis'; and 'Clinical context' may be 'Newly diagnosed diabetic for initial education and instruction in insulin administration'. If delivery of the complete service requires more than one activity, such as 'four sessions at fortnightly intervals, commencing one week after discharge from hospital', use the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype, nested within the 'Complex timing' SLOT.\r\n- Consider a clinician ordering a meal home-delivery service from the municipal council - the 'Service name' may be 'Meals on wheels program'; the 'Clinical indication' may be 'Emphysema'; the 'Reason for request' may be 'Unable to shop or cook independently'. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to define the delivery requirements such as 'daily for 6 months'.\r\n- Consider a clinician ordering an ultrasound of the left leg to exclude a deep venous thrombosis - the 'Service name' will be 'Ultrasound left lower leg'; the 'Clinical indication' may be 'swollen left ankle'; the 'Reason for request' may be 'exclude DVT'; the 'Clinical context' may be 'gradually increasing pitting oedema to mid-calf in the left leg over the past 3 days'.\r\n- Consider a clinician ordering a recurring blood test, such as an INR. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to clearly define the frequency and timing for each sequence in a series of tests, such as 'daily for one week, weekly for 4 weeks, monthly for 6 months'.\r\n- Consider a clinician ordering a follow-up appointment in 6 weeks. 'Follow-up appointment' will be the 'Service name'. If they enter '6 weeks' as the proposed timing for the appointment in the User Interface, the clinical system will record the date six weeks from today in the 'Service due' data element.\r\n\r\nIn many situations, it will be possible to record the steps that occur as part of this request being carried out using the corresponding generic ACTION.service. However, there will be many occasions where the required ACTION archetype will be very specific for purpose, as the data requirements for recording provision of many health-related services will need quite unique data elements, recording patterns or pathway steps. For example: ACTION.screening or ACTION.health_education.",
+          "misuse" : "Not to be used to record details about the activities that document how an order or request has been carried out - use an ACTION archetype for this purpose. For example ACTION.service archetype or a more purpose-specific archetype from the ACTION class for this purpose.",
+          "copyright" : "© openEHR Foundation, Nasjonal IKT HF",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "it" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "it"
+          },
+          "purpose" : "*A generic framework for a request for a health-related service or activity to be delivered by a clinician, organisation or agency. (en)",
+          "keywords" : [ "richiesta, ordine, servizio, fornire, indirizzamento" ],
+          "use" : "*Use to record a request for a health-related service or activity to be delivered by a clinician, organisation or agency.\r\n\r\nThis generic archetype has been designed as a framework that can be used as the basis for a wide range of requests:\r\n- a request from one clinician, organisation or agency to another clinician, organisation or agency for a health-related service. For example: a referral to a specialist clinician for treatment or a second clinical opinion; transfer of care to an emergency department; four hourly vital signs monitoring; diagnostic investigations; and provision of home services from a municipal council; or\r\n- a request for a follow-up service to be scheduled for the same clinician, organisation or agency. For example: an outpatient appointment for review in 6 weeks. \r\n\r\nIt can be used to represent a request for one or more services, in one of two ways:\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is the same - use a separate 'Activity' instance within this archetype for each request.\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is different - use a separate instance of this archetype for each request.\r\n\r\nThe 'Service due' data element supports common use cases for stipulating the simple timing for delivery of the request/s on a single occasion. For situations with more complicated timing requirements or a series of services, use the CLUSTER.service_direction archetype within the 'Complex timing' SLOT.\r\n\r\nImplementation examples:\r\n- Consider a clinician referring a patient to an Endocrinologist for diabetes treatment advice - the 'Service name will be 'Referral'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'Difficulty controlling early evening hyperglycaemia; the 'Clinical context' may contain a narrative about the duration and previous management of their diabetes, current treatment, plus recent weight gain and information about the recent death of their spouse; current treatment; 'Intent' may be 'Second opinion' or 'Handover of care'.\r\n- Consider a clinician ordering diabetes education - The 'Service name' will be 'Diabetes education'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'New diagnosis' and 'Prevention of ketoacidosis'; and 'Clinical context' may be 'Newly diagnosed diabetic for initial education and instruction in insulin administration'. If delivery of the complete service requires more than one activity, such as 'four sessions at fortnightly intervals, commencing one week after discharge from hospital', use the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype, nested within the 'Complex timing' SLOT.\r\n- Consider a clinician ordering a meal home-delivery service from the municipal council - the 'Service name' may be 'Meals on wheels program'; the 'Clinical indication' may be 'Emphysema'; the 'Reason for request' may be 'Unable to shop or cook independently'. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to define the delivery requirements such as 'daily for 6 months'.\r\n- Consider a clinician ordering an ultrasound of the left leg to exclude a deep venous thrombosis - the 'Service name' will be 'Ultrasound left lower leg'; the 'Clinical indication' may be 'swollen left ankle'; the 'Reason for request' may be 'exclude DVT'; the 'Clinical context' may be 'gradually increasing pitting oedema to mid-calf in the left leg over the past 3 days'.\r\n- Consider a clinician ordering a recurring blood test, such as an INR. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to clearly define the frequency and timing for each sequence in a series of tests, such as 'daily for one week, weekly for 4 weeks, monthly for 6 months'.\r\n- Consider a clinician ordering a follow-up appointment in 6 weeks. 'Follow-up appointment' will be the 'Service name'. If they enter '6 weeks' as the proposed timing for the appointment in the User Interface, the clinical system will record the date six weeks from today in the 'Service due' data element.\r\n\r\nIn many situations, it will be possible to record the steps that occur as part of this request being carried out using the corresponding generic ACTION.service. However, there will be many occasions where the required ACTION archetype will be very specific for purpose, as the data requirements for recording provision of many health-related services will need quite unique data elements, recording patterns or pathway steps. For example: ACTION.screening or ACTION.health_education. (en)",
+          "misuse" : "*Not to be used to record details about the activities that document how an order or request has been carried out - use an ACTION archetype for this purpose. For example ACTION.service archetype or a more purpose-specific archetype from the ACTION class for this purpose. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "purpose" : "*A generic framework for a request for a health-related service or activity to be delivered by a clinician, organisation or agency. (en)",
+          "keywords" : [ "verzoek", "opdracht", "dienst", "voorschrift", "verwijzing" ],
+          "use" : "*Use to record a request for a health-related service or activity to be delivered by a clinician, organisation or agency.\r\n\r\nThis generic archetype has been designed as a framework that can be used as the basis for a wide range of requests:\r\n- a request from one clinician, organisation or agency to another clinician, organisation or agency for a health-related service. For example: a referral to a specialist clinician for treatment or a second clinical opinion; transfer of care to an emergency department; four hourly vital signs monitoring; diagnostic investigations; and provision of home services from a municipal council; or\r\n- a request for a follow-up service to be scheduled for the same clinician, organisation or agency. For example: an outpatient appointment for review in 6 weeks. \r\n\r\nIt can be used to represent a request for one or more services, in one of two ways:\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is the same - use a separate 'Activity' instance within this archetype for each request.\r\n- If multiple services need to be requested and the information recorded in the 'protocol' (for example 'Receiver') is different - use a separate instance of this archetype for each request.\r\n\r\nThe 'Service due' data element supports common use cases for stipulating the simple timing for delivery of the request/s on a single occasion. For situations with more complicated timing requirements or a series of services, use the CLUSTER.service_direction archetype within the 'Complex timing' SLOT.\r\n\r\nImplementation examples:\r\n- Consider a clinician referring a patient to an Endocrinologist for diabetes treatment advice - the 'Service name will be 'Referral'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'Difficulty controlling early evening hyperglycaemia; the 'Clinical context' may contain a narrative about the duration and previous management of their diabetes, current treatment, plus recent weight gain and information about the recent death of their spouse; current treatment; 'Intent' may be 'Second opinion' or 'Handover of care'.\r\n- Consider a clinician ordering diabetes education - The 'Service name' will be 'Diabetes education'; the 'Clinical indication' will be 'Type 1 Diabetes Mellitus'; the 'Reason for request' may be 'New diagnosis' and 'Prevention of ketoacidosis'; and 'Clinical context' may be 'Newly diagnosed diabetic for initial education and instruction in insulin administration'. If delivery of the complete service requires more than one activity, such as 'four sessions at fortnightly intervals, commencing one week after discharge from hospital', use the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype, nested within the 'Complex timing' SLOT.\r\n- Consider a clinician ordering a meal home-delivery service from the municipal council - the 'Service name' may be 'Meals on wheels program'; the 'Clinical indication' may be 'Emphysema'; the 'Reason for request' may be 'Unable to shop or cook independently'. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to define the delivery requirements such as 'daily for 6 months'.\r\n- Consider a clinician ordering an ultrasound of the left leg to exclude a deep venous thrombosis - the 'Service name' will be 'Ultrasound left lower leg'; the 'Clinical indication' may be 'swollen left ankle'; the 'Reason for request' may be 'exclude DVT'; the 'Clinical context' may be 'gradually increasing pitting oedema to mid-calf in the left leg over the past 3 days'.\r\n- Consider a clinician ordering a recurring blood test, such as an INR. The complex timing for this requires the use of the CLUSTER.service_direction and associated CLUSTER.timing_nondaily archetype nested within the 'Complex timing' SLOT to clearly define the frequency and timing for each sequence in a series of tests, such as 'daily for one week, weekly for 4 weeks, monthly for 6 months'.\r\n- Consider a clinician ordering a follow-up appointment in 6 weeks. 'Follow-up appointment' will be the 'Service name'. If they enter '6 weeks' as the proposed timing for the appointment in the User Interface, the clinical system will record the date six weeks from today in the 'Service due' data element.\r\n\r\nIn many situations, it will be possible to record the steps that occur as part of this request being carried out using the corresponding generic ACTION.service. However, there will be many occasions where the required ACTION archetype will be very specific for purpose, as the data requirements for recording provision of many health-related services will need quite unique data elements, recording patterns or pathway steps. For example: ACTION.screening or ACTION.health_education. (en)",
+          "misuse" : "*Not to be used to record details about the activities that document how an order or request has been carried out - use an ACTION archetype for this purpose. For example ACTION.service archetype or a more purpose-specific archetype from the ACTION class for this purpose. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-INSTRUCTION.service_request.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-INSTRUCTION.ovl-service_request-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "INSTRUCTION",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "activities",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ACTIVITY",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "description",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ITEM_TREE",
+              "nodeId" : "at0009",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "items",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0121.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0148.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0135.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0152.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0154.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0062.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0064.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0065.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0153.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0068.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_CODED_TEXT",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "defining_code",
+                        "children" : [ {
+                          "@type" : "C_TERMINOLOGY_CODE",
+                          "rmTypeName" : "CODE_PHRASE",
+                          "occurrences" : "1..1",
+                          "terminologyId" : {
+                            "value" : "local"
+                          },
+                          "constraint" : [ "at0136", "at0137", "at0138" ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_TEXT",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0040.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_INTERVAL<DV_DATE_TIME>",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0076.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_BOOLEAN",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_BOOLEAN",
+                          "rmTypeName" : "Boolean",
+                          "occurrences" : "1..1",
+                          "constraint" : [ true ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..0",
+                  "nodeId" : "at0078.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0150.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_ARCHETYPE_ROOT",
+                  "rmTypeName" : "CLUSTER",
+                  "occurrences" : "0..1",
+                  "nodeId" : "at0151.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ],
+                  "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-service_direction-001.v1",
+                  "referenceType" : "archetypeOverlay"
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "protocol",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0008",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0010.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_IDENTIFIER",
+                  "defaultValue" : {
+                    "@type" : "DV_IDENTIFIER"
+                  },
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0011.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_IDENTIFIER",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0127.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0158.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0156.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0065.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0065.1",
+            "text" : "Goals",
+            "description" : "Description of the intended outcome of the request.",
+            "comment" : "Coding of the 'Intent' with an external terminology is recommended, if available. This data element allows multiple occurrences to enable the user to record a multiple responses, if required."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Requests",
+            "description" : "Current Activity."
+          }
+        },
+        "nb" : { },
+        "it" : { },
+        "de" : { },
+        "sv" : { },
+        "pt-br" : { },
+        "nl" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "424d508f-afca-44c2-97fc-b45116d9bef4",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Alina Rehberg, Natalia Strauch, Darin Leonhardt",
+        "organisation" : "Medizinische Hochschule Hannover, PLRI für medizinische Informatik/ Medizinische Hochschule",
+        "email" : "rehberg.alina@mh-hannover.de, Strauch.Natalia@mh-hannover.de, leonhardt.darin@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Sofia Janstad",
+        "organisation" : "SLL",
+        "email" : "sofia.lang-janstad@sll.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke, Marit Alice Venheim",
+        "organisation" : "Nasjonal IKT HF, Norway, Helse Vest IKT",
+        "email" : "marit.alice.venheim@helse-vest-ikt.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Vladimir Pizzo",
+        "organisation" : "Clínica Parente Pizzo",
+        "email" : "vrppizzo@gmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "it"
+      },
+      "author" : {
+        "name" : "Francesca Frexia",
+        "organisation" : "CRS4 - Center for advanced studies, research and development in Sardinia, Pula (Cagliari), Italy",
+        "email" : "francesca.frexia@crs4.it"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : {
+        "name" : "Mattijs Kuhlmann, Joost Holslag",
+        "organisation" : "Nedap",
+        "email" : "mattijs.kuhlmann@nedap.com, joost.holslag@nedap.com"
+      },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "8cca522e-d054-45a5-bc46-db421f8bbd0a",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "0EE9628D2B91CB934A0F3D31546F727F"
+      },
+      "details" : {
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera strukturerade detaljer i en komplex riktning för en beställd eller begärd tjänst.",
+          "keywords" : [ "begäran", "service", "procedur", "undersökning", "behandling", "timing" ],
+          "use" : "Används för att spela in strukturerade detaljer i en enda, komplex riktning för en beställd eller begärd tjänst.\r\n\r\nDen här arketypen har utformats för att kapslas in i ''Komplex timing'' -SLOT i INSTRUCTION.service_request-arketypen, men kan användas inom andra kliniskt relevanta arketyper, efter behov. Flera instanser av denna arketyp kan krävas för att representera en komplex beställning av tjänster, särskilt sådana med förändrad frekvens eller leveransmönster över tid.\r\n\r\nVarje tjänst ger detaljerad vägledning om en eller flera sekventiella aktiviteter, var och en innefattande ett belopp och en intradaglig timing, tillsammans med en övergripande riktningstid och detaljer om varje repetitivt mönster utanför en enda dag. Varje aktivitetspar gör det möjligt att beskriva ett komplext intradagligt mönster, till exempel 2 timmars omvårdnad på morgonen och en timme på kvällen.\r\n\r\nVarje tjänst kan gälla under en fast tidsperiod eller ett fast antal tjänster, som anges med hjälp av dataelementet 'Totalt belopp'.\r\n\r\nDet totala beloppet för hela tjänsteförfrågan registreras i INSTRUCTION.service_request.\r\n\r\nTill exempel:\r\n- \"Hjemsjukvårdshjälp i 2 timmar på morgonen och 1 timme på kvällen under en period av 6 veckor, följt av 1 timme på morgonen endast i ytterligare 6 veckor\".\r\n- ”Dialysblodprovspaket som ska genomföras: Den andra onsdagen i månaden januari, mars, maj, juli, september och november”.\r\n- ”INR dagligen i en vecka, veckovis i en månad, månadsvis i sex månader”. eller\r\n- \"Vital signalerar observationer var timme i fyra timmar, sedan varannan timme i 12 timmar\".\r\n\r\nDenna CLUSTER kan byta namn i template eller vid körning för att representera en specifik servicriktning som \"Första fyra timmarna efter operationen\".",
+          "misuse" : "Inte utformad för att registrera information om en begäran eller beställning där en dosering krävs, till exempel medicinering eller transfusionsorder. Använd CLUSTER.therapeutic_direction för dessa ändamål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere en detaljert beskrivelse av en kompleks anvisning for en rekvirert eller bestilt tjeneste.",
+          "keywords" : [ "rekvirering", "rekvirere", "tjeneste", "prosedyre", "undersøkelse", "behandling", "timing", "tidsangivelse", "timedefinisjon", "tidspunkt", "instruks", "bestilling", "bestille" ],
+          "use" : "Brukes for å registrere en detaljert beskrivelse av en kompleks anvisning for en rekvirert eller bestilt tjeneste.\r\n\r\nDenne arketypen er utviklet for å nøstes i SLOTet \"Kompleks timing\" i arketypen INSTRUCTION.service_request (Helsetjenesteforespørsel), men kan benyttes i andre arketyper der det er klinisk relevant. Det kan være nødvendig med flere instanser av denne arketypen for å representerer komplekse forespørsler etter tjenester, særlig tjenester som endrer frekvens eller leveringsmønstre over tid.\r\n\r\nHver tjenesteanvisning gir en detaljert veiledning om en eller flere sekvensielle aktiviteter, der hver aktivitet inneholder en \"Mengde\" og en \"Timing innenfor en dag\" (arketypen \"Timing - døgn\"), sammen med den overordnede varigheten av anvisningen og detaljer om repeterende mønstre utover en enkelt dag. Hvert aktivitetspar gjør det mulig å beskrive et komplekst mønster, for eksempel 2 timer hjemmesykepleie om morgenen og en time om kvelden.\r\n\r\nHver tjenesteanvisning kan være gyldig i en begrenset tidsperiode, over et begrenset nummer hendelser beskrevet i dataelementet \"Totalmengde\".\r\n\r\nDen totale mengden for hele tjenesteanvisningen registreres i arketypen INSTRUCTION.service_request (Helsetjenesteforespørsel).\r\n\r\nFor eksempel: \r\n- Hjemmesykepleier 2 timer om morgenen og 1 time om kvelden over en tidsperiode på 6 måneder. Etterfulgt av kun 1 time om morgenen i 6 uker.\r\n- Dialyseblodprøvepakke tas på onsdager i den andre uken av Januar, Februar, April, Mai, Juli, August, Oktober, November.\r\n- INR daglig i 1 uke, ukentlig i 1 måned og månedlig i 6 måneder.\r\n- Vitale observasjoner hver time i 4 timer, deretter hver andre time i 12 timer.\r\n\r\nArketypen kan gis nye navn i et templat eller en applikasjon for å representere en spesifikk hendelse som f.eks. \"første fire timer eller operasjon\".",
+          "misuse" : "Skal ikke brukes for å registrere tidsangivelse om en rekvirering eller ordinering der det er behov for en doseangivelse, som legemiddel- eller transfusjonsordinasjoner. Bruk arketypen CLUSTER.therapeutic_direction (Terapeutisk anvisning) for dette formålet.",
+          "copyright" : "© openEHR Foundation, Alberta Health Services (Canada)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record structured details of a complex direction for an ordered or requested service.",
+          "keywords" : [ "request", "service", "procedure", "examination", "treatment", "timing" ],
+          "use" : "Use to record structured details of a single, complex direction for an ordered or requested service. \r\n\r\nThis archetype has been designed to be nested within the 'Complex timing' SLOT in the INSTRUCTION.service_request archetype, but may be used within other clinically relevant archetypes, as required. Multiple instances of this archetype may be required to represent a complex order for services, especially ones with changing frequency or patterns of delivery over time.\r\n\r\nEach service direction provides detailed guidance about one or more sequential activities, each comprising an amount and an intradaily timing, together with an overall direction duration and details of any repetitive pattern outside a single day. Each activity pair allows for a complex intradaily pattern to be described, such as 2 hours of nursing assistance in the morning and one hour in the evening.\r\n\r\nEach service direction may apply for a fixed duration of time, or fixed number of services, which is specified using the 'Total amount' data element.\r\n\r\nThe total amount for the entire service request, is recorded in the INSTRUCTION.service_request.\r\n\r\nFor example: \r\n- 'Home nursing assistance for 2 hours in the morning and 1 hour in the evening for a period of 6 weeks, followed by 1 hour in the morning only for a further 6 weeks';\r\n- 'Dialysis blood test package to be carried out: The second Wednesday of the month in January, March, May, July, September and November';\r\n- 'INR daily for one week, weekly for one month, monthly for six months'; or\r\n- 'Vital signs observations every hour for four hours, then every two hours for 12 hours'.\r\n\r\nThe CLUSTER can be renamed in template or at run-time to represent a specific service direction such as 'First four hours after surgery'.",
+          "misuse" : "Not to be used to record information about any request or order where a dosage is required, for example medication or transfusion orders. Use the CLUSTER.therapeutic_direction for these purposes.",
+          "copyright" : "© openEHR Foundation, Alberta Health Services (Canada)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.service_direction.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-service_direction-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0001.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_COUNT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "magnitude",
+                "children" : [ {
+                  "@type" : "C_INTEGER",
+                  "rmTypeName" : "Integer",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : 1,
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0002.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "CLUSTER",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0004.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_COUNT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "magnitude",
+                    "children" : [ {
+                      "@type" : "C_INTEGER",
+                      "rmTypeName" : "Integer",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : 1,
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0005.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_COUNT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "magnitude",
+                    "children" : [ {
+                      "@type" : "C_INTEGER",
+                      "rmTypeName" : "Integer",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : 1,
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DURATION",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_DURATION",
+                      "rmTypeName" : "DURATION",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : "PT1S",
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0007.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DURATION",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_DURATION",
+                  "rmTypeName" : "DURATION",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : "PT1S",
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0011.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_COUNT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "magnitude",
+                "children" : [ {
+                  "@type" : "C_INTEGER",
+                  "rmTypeName" : "INTEGER",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : 1,
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DURATION",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_DURATION",
+                  "rmTypeName" : "DURATION",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : "PT1S",
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : {
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Instructions",
+            "description" : "Narrative description about the whole direction.",
+            "comment" : "For example: \"At 07:00 every Monday, 30 minutes duration, for the next three months\"."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Duration",
+            "description" : "The length of time for which this direction should be applied.",
+            "comment" : "For example: 'for 7 days','Indefinite'. An example of a set of multiple directions, with varying durations might be '1 time daily for 3 days, 2 times daily for 4 days, then 3 times Indefinite'."
+          }
+        },
+        "nb" : { },
+        "sv" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "40cda3d0-9891-468c-86a2-c9a024383b2a",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Therese Lindberg",
+        "organisation" : "Cambio CDS",
+        "email" : "therese.lindberg@cambio.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke og John Tore Valand, Liv Laugen",
+        "organisation" : "Helse Vest IKT og Helse Bergen HF, ​Oslo University Hospital, Norway",
+        "email" : "john.tore.valand@helse-bergen.no, liv.laugen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    } ]
+  } ],
+  "originalLanguage" : {
+    "terminologyId" : {
+      "value" : "ISO_639-1"
+    },
+    "codeString" : "en"
+  },
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fi"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ko"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-br"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ar-sy"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "it"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fr"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-pt"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es-ar"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nb"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lauramoral@catsalut.cat"
+    },
+    "otherDetails" : { }
+  } ]
+}
