@@ -1,0 +1,172 @@
+archetype (adl_version=1.4; uid=b695e76d-a360-415e-aba4-d48682e10e07)
+	openEHR-EHR-OBSERVATION.dasha_vidha_pareeksha.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-07-24">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"2d963d1c282404cad2314ab2b5b699e2">
+		["build_uid"] = <"3a8d3f37-569e-3023-997c-2897679486d3">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- Dasha vidha pareeksha
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Prakriti
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0005] occurrences matches {0..*} matches {    -- Vikriti
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Sara
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0007] occurrences matches {0..*} matches {    -- Samhanana
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0008] occurrences matches {0..*} matches {    -- Pramana
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..*} matches {    -- Satmya
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Satva
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- Ahara shakthi
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0012] occurrences matches {0..1} matches {    -- Vyayama shakthi
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0013] occurrences matches {0..1} matches {    -- Vaya
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Overall description
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Dasha vidha pareeksha">
+					description = <"dasha_vidha_pareekasha">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Prakriti">
+					description = <"Dosha body type & basic physical and psychological constitution">
+				>
+				["at0005"] = <
+					text = <"Vikriti">
+					description = <"Current & past diseases">
+				>
+				["at0006"] = <
+					text = <"Sara">
+					description = <"Dhatu Body Type. Immunity level & resistance to diseases">
+				>
+				["at0007"] = <
+					text = <"Samhanana">
+					description = <"Overall physical constitution & nature of the body, muscle tone">
+				>
+				["at0008"] = <
+					text = <"Pramana">
+					description = <"Physical measurements & stature">
+				>
+				["at0009"] = <
+					text = <"Satmya">
+					description = <"Compatibility of food & other things, habits">
+				>
+				["at0010"] = <
+					text = <"Satva">
+					description = <"Mental strength, tolerance & emotional balance">
+				>
+				["at0011"] = <
+					text = <"Ahara shakthi">
+					description = <"Mentabolism level & digestion capacity">
+				>
+				["at0012"] = <
+					text = <"Vyayama shakthi">
+					description = <"exercise capacity & tolerance">
+				>
+				["at0013"] = <
+					text = <"Vaya">
+					description = <"Persons age">
+				>
+				["at0014"] = <
+					text = <"Overall description">
+					description = <"">
+				>
+			>
+		>
+	>
