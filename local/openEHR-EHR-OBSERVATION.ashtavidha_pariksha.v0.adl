@@ -1,0 +1,276 @@
+archetype (adl_version=1.4; uid=142b802a-1988-451d-b0fd-6e030844e9ab)
+	openEHR-EHR-OBSERVATION.ashtavidha_pariksha.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2025-03-21">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"03575b854d9ce0d7bb3d60effe326848">
+		["build_uid"] = <"e4ff2830-eae4-33ff-93a7-07ea2ee48c81">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- Ashtavidha pariksha exam
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0005] occurrences matches {0..*} matches {    -- Nadi
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									CLUSTER[at0014] occurrences matches {0..*} matches {    -- Mutra
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0015] occurrences matches {0..1} matches {    -- Colour
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0017] occurrences matches {0..1} matches {    -- Quantity
+												value matches {
+													DV_QUANTITY matches {*}
+												}
+											}
+											ELEMENT[at0018] occurrences matches {0..1} matches {    -- Frequency
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0019] occurrences matches {0..1} matches {    -- Specific gravity
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0020] occurrences matches {0..1} matches {    -- Foam
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0021] occurrences matches {0..1} matches {    -- Others
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0023] occurrences matches {0..1} matches {    -- Description
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0022] occurrences matches {0..*} matches {    -- Mala
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0024] occurrences matches {0..1} matches {    -- Consistency
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0025] occurrences matches {0..1} matches {    -- Colour
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0026] occurrences matches {0..1} matches {    -- Frequency
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0027] occurrences matches {0..1} matches {    -- Presence of ama
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0028] occurrences matches {0..1} matches {    -- Others
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+											ELEMENT[at0029] occurrences matches {0..1} matches {    -- Description
+												value matches {
+													DV_TEXT matches {*}
+												}
+											}
+										}
+									}
+									ELEMENT[at0008] occurrences matches {0..*} matches {    -- Jihva
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..*} matches {    -- Shabda
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..*} matches {    -- Sparsha
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0011] occurrences matches {0..*} matches {    -- Drik
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0012] occurrences matches {0..*} matches {    -- Akruti
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0013] occurrences matches {0..1} matches {    -- Comments
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0004] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Ashtavidha pariksha exam">
+					description = <"ashtavidha_pariksha">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0005"] = <
+					text = <"Nadi">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Jihva">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Shabda">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Sparsha">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Drik">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Akruti">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Comments">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Mutra">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Colour">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Quantity">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Frequency">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Specific gravity">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Foam">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Others">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Mala">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Description">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Consistency">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Colour">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Frequency">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Presence of ama">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Others">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Description">
+					description = <"">
+				>
+			>
+		>
+	>
