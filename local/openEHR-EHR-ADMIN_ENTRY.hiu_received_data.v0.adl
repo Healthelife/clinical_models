@@ -1,0 +1,84 @@
+archetype (adl_version=1.4; uid=aaf90854-fd17-4144-b3f7-2ea2fde2261d)
+	openEHR-EHR-ADMIN_ENTRY.hiu_received_data.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-06-21">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"a9c90d09bf7ff9f5a272fe1426702dd3">
+		["build_uid"] = <"4ffe24f4-0afc-3bcf-88e8-ddaa2f2bba4c">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- HIU received data
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0002] occurrences matches {0..1} matches {    -- consentId
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0004] occurrences matches {0..1} matches {    -- resourceId
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0005] occurrences matches {0..1} matches {    -- abhaAddress
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"HIU received data">
+					description = <"hiu_received_data">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"consentId">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"resourceId">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"abhaAddress">
+					description = <"">
+				>
+			>
+		>
+	>
