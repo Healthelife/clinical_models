@@ -1,0 +1,83 @@
+archetype (adl_version=1.4; uid=1440e2fa-3e9e-4a3a-9f3d-a0190c72f4c0)
+	openEHR-EHR-ADMIN_ENTRY.dynamic_form.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2025-01-10">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"dccc2683545fab2872d402f3ed30b890">
+		["build_uid"] = <"6fe97689-a3b0-3150-b38f-b93675b6fb39">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- Dynamic form
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0002] occurrences matches {0..1} matches {    -- Form name
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0003] occurrences matches {0..1} matches {    -- Form ID
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					allow_archetype CLUSTER[at0004] occurrences matches {0..*} matches {    -- Form data
+						include
+							archetype_id/value matches {/.*/}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Dynamic form">
+					description = <"Dynamic form">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Form name">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Form ID">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Form data">
+					description = <"">
+				>
+			>
+		>
+	>
