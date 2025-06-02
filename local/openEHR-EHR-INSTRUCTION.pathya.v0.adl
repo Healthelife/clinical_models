@@ -1,0 +1,99 @@
+archetype (adl_version=1.4; uid=24b6189a-bc8d-4916-89b7-72e6ecdab496)
+	openEHR-EHR-INSTRUCTION.pathya.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2025-04-02">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"0e47fb87a32e758c78a848d567d7f2ed">
+		["build_uid"] = <"0e87d4fd-ad98-3612-bd6b-ffc9bc725a83">
+	>
+
+definition
+	INSTRUCTION[at0000] matches {    -- pathya
+		activities cardinality matches {0..*; unordered} matches {
+			ACTIVITY[at0001] matches {    -- Current Activity
+				description matches {
+					ITEM_TREE[at0002] matches {    -- Tree
+						items cardinality matches {0..*; unordered} matches {
+							ELEMENT[at0003] occurrences matches {0..*} matches {    -- Pathya
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+							ELEMENT[at0004] occurrences matches {0..*} matches {    -- Apathya
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+							ELEMENT[at0006] occurrences matches {0..1} matches {    -- Comments
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0005] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"pathya">
+					description = <"pathya">
+				>
+				["at0001"] = <
+					text = <"Current Activity">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Pathya">
+					description = <"Food and lifestyle recommendations">
+				>
+				["at0004"] = <
+					text = <"Apathya">
+					description = <"Food and lifestyle restrictions">
+				>
+				["at0005"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0006"] = <
+					text = <"Comments">
+					description = <"">
+				>
+			>
+		>
+	>
