@@ -1,0 +1,149 @@
+archetype (adl_version=1.4; uid=f3179b22-9008-4c7f-9edb-6e74dd7db94e)
+	openEHR-EHR-ADMIN_ENTRY.care_context.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-06-20">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"2744ecbe088c324b286359c7b9f30df2">
+		["build_uid"] = <"a85cfb0d-d03f-3f2b-a34f-19ee2165c9d0">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- Care context
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0002] occurrences matches {0..1} matches {    -- Display name
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0003] occurrences matches {0..1} matches {    -- status
+						value matches {
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::
+									at0004,    -- planned
+									at0005,    -- arrived
+									at0006,    -- triaged
+									at0007,    -- in-progress
+									at0008,    -- finished
+									at0009]    -- cancelled
+								}
+							}
+						}
+					}
+					ELEMENT[at0010] occurrences matches {0..1} matches {    -- start date
+						value matches {
+							DV_DATE_TIME matches {*}
+						}
+					}
+					ELEMENT[at0011] occurrences matches {0..1} matches {    -- end date
+						value matches {
+							DV_DATE_TIME matches {*}
+						}
+					}
+					ELEMENT[at0015] occurrences matches {0..1} matches {    -- encounterId
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0012] occurrences matches {0..1} matches {    -- isLinked
+						value matches {
+							DV_BOOLEAN matches {*}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Care context">
+					description = <"care_context">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Display name">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"status">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"planned">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"arrived">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"triaged">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"in-progress">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"finished">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"cancelled">
+					description = <"">
+				>
+				["at0.9"] = <
+					text = <"Element">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"start date">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"end date">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"isLinked">
+					description = <"Mark if this care conext is linked in the ABDM consent manager">
+				>
+				["at0015"] = <
+					text = <"encounterId">
+					description = <"Id of the related encounter. Use format Encounter/Id">
+				>
+			>
+		>
+	>
