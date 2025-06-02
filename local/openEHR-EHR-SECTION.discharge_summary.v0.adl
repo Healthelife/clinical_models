@@ -1,0 +1,94 @@
+archetype (adl_version=1.4; uid=22a850ab-8dbd-4921-bebc-54027efe6b0e)
+	openEHR-EHR-SECTION.discharge_summary.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-07-29">
+		["name"] = <"Dileep V S">
+		["organisation"] = <"Healthelife Ventures LLP">
+		["email"] = <"dileep@healthelife.in">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"bc0f616172877a5d6d199f05af6b77cc">
+		["build_uid"] = <"3b62fa08-b43f-3f0c-8d8f-1f0794e55d21">
+	>
+
+definition
+	SECTION[at0000] matches {    -- discharge_summary
+		items cardinality matches {1..*; unordered} matches {
+			SECTION[at0001] occurrences matches {0..1} matches {*}    -- Compaints
+			SECTION[at0002] occurrences matches {0..1} matches {*}    -- Physical examination
+			SECTION[at0003] occurrences matches {0..1} matches {*}    -- Allergies
+			SECTION[at0004] occurrences matches {0..1} matches {*}    -- Medical history
+			SECTION[at0005] occurrences matches {0..1} matches {*}    -- Family history
+			SECTION[at0006] occurrences matches {0..1} matches {*}    -- Investigations
+			SECTION[at0007] occurrences matches {0..1} matches {*}    -- Medications
+			SECTION[at0008] occurrences matches {0..1} matches {*}    -- Procedures
+			SECTION[at0009] occurrences matches {0..1} matches {*}    -- Care plan
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"discharge_summary">
+					description = <"discharge_summary">
+				>
+				["at0001"] = <
+					text = <"Compaints">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Physical examination">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Allergies">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Medical history">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Family history">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Investigations">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Medications">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Procedures">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Care plan">
+					description = <"">
+				>
+			>
+		>
+	>
